@@ -2,13 +2,17 @@
   {
     "id": 11,
     "title": "Realna situacija u IT-u",
-    "link": "https://www.youtube.com/watch?v=eV0E2-_8UJg&t=801s",
-    "cover": "https://i.ytimg.com/vi/eV0E2-_8UJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoK3KQilouChVzsc5yBSh8NP9MOw"
+    "link": "https://www.youtube.com/watch?v=eV0E2-_8UJg",
+    "embedId": "eV0E2-_8UJg",
+    "cover": "https://i.ytimg.com/vi/eV0E2-_8UJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoK3KQilouChVzsc5yBSh8NP9MOw",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eos error esse illum molestiae quibusdam sequi? Adipisci aliquam aspernatur magnam modi nam odio rem! Aliquid deleniti dolorem dolores eligendi ex, nisi odit praesentium quidem recusandae sequi. Aspernatur at corporis deserunt doloribus et ipsum minus, mollitia odit perspiciatis quasi quia soluta unde veniam? Facilis, quidem recusandae. Aspernatur debitis, deleniti. Aliquid deserunt ea, illum minima quasi quos rem. Doloremque incidunt ipsam sit tempore vel! Animi, quam reiciendis? Dicta doloribus in modi molestiae!"
   },
   {
     "id": 22,
     "title": "Kako naučiti programiranje?",
     "link": "https://www.youtube.com/watch?v=Dtdr505IuYM",
-    "cover": "https://i.ytimg.com/vi/Dtdr505IuYM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_ToFytfp9PU8DPYz9wfZI1cPHFQ"
+    "embedId": "Dtdr505IuYM",
+    "cover": "https://i.ytimg.com/vi/Dtdr505IuYM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_ToFytfp9PU8DPYz9wfZI1cPHFQ",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ducimus ipsam numquam odio odit placeat quas qui quidem recusandae? Ab aliquam asperiores consequatur consequuntur cumque dicta excepturi ipsam laudantium, natus non numquam perspiciatis, quam quasi quidem sunt, velit voluptatum. Harum in inventore iste molestiae porro possimus quas quasi quod tempora veniam. A aliquam, aperiam aspernatur deleniti dicta dignissimos ducimus eum facilis laboriosam laborum necessitatibus nisi officiis, quasi quidem temporibus voluptates voluptatum! Doloremque facere laboriosam nihil quas sed. Ab accusamus, autem consectetur consequuntur cumque deleniti iusto odio perspiciatis placeat qui reprehenderit sequi voluptatibus? Facilis nisi obcaecati quas repellat repudiandae ullam unde?"
   }
 ]
