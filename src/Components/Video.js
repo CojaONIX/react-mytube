@@ -9,13 +9,11 @@ const Video = () => {
                         return e.id === parseInt(id);
                     });
 
-    console.log(video);
     if(video === undefined) {
         return (
             <h2>Video id: {id} not exists!</h2>
         )
     }
-
 
     return (
         <div className="card-group">
