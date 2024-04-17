@@ -1,8 +1,11 @@
+import {useParams} from "react-router-dom";
 
 const Video = () => {
 
+    const { id } = useParams();
+
     return (
-        <h2>Test Video</h2>
+        <h2>Test Video {id}</h2>
     )
 }
 
