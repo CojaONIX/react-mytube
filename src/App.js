@@ -1,20 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import AllVideos from "./Components/AllVideos";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Home from "./Pages/Home";
 
 
 const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={
-                        <div className="container">
-                            <h2>MyTube</h2>
-                            <hr/>
-                            <AllVideos/>
-                        </div>
-                    }
-                />
+                <Route path="/" element={<Home />} />
 
 
             </Routes>
