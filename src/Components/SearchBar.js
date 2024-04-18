@@ -3,9 +3,11 @@ import VIDEOS from '../videos.json';
 const SearchBar = () => {
 
     const SearchVideoByTitle = (searchString) => {
+        searchString = searchString.toLowerCase();
         let counter = 0;
         VIDEOS.forEach(video => {
-            if(video.title.toLowerCase().includes(searchString)) {
+            let title = video.title.toLowerCase();
+            if(title.includes(searchString)) {
                 counter++;
             }
         });
@@ -15,7 +17,7 @@ const SearchBar = () => {
     return (
         <form className="col-md-4">
             <label className="form-label">Search:</label>
-            <input onInput={ (e) => SearchVideoByTitle(e.target.value.toLowerCase()) } className="form-control" type="text" name="search" autoFocus />
+            <input onInput={ (e) => SearchVideoByTitle(e.target.value) } className="form-control" type="text" name="search" autoFocus />
         </form>
     );
 }
