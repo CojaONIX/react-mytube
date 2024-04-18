@@ -8,7 +8,7 @@ const Home = () => {
     const [videos, setVideos] = useState(VIDEOS);
     const [filteredVideos, setFilteredVideos] = useState(VIDEOS);
 
-    const handeleSearchVideo = (results) => {
+    const handleSearchVideo = (results) => {
         setFilteredVideos(results);
     }
 
@@ -16,7 +16,7 @@ const Home = () => {
         <div className="container">
             <h2>MyTube</h2>
             <hr/>
-            <SearchBar videos={videos} />
+            <SearchBar videos={videos} onSearchVideo={handleSearchVideo} />
             <hr/>
             <AllVideos />
         </div>
