@@ -17,7 +17,7 @@ const SearchBar = () => {
     return (
         <form className="col-md-4">
             <label className="form-label">Search:</label>
-            <input onInput={ (e) => SearchVideoByTitle(e.target.value) } className="form-control" type="text" name="search" autoFocus />
+            <input onInput={ (e) => SearchVideoByTitle(e.currentTarget.value) } className="form-control" type="text" name="search" autoFocus />
         </form>
     );
 }
