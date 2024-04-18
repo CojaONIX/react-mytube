@@ -1,12 +1,11 @@
 
-import VIDEOS from '../videos.json';
 
-const AllVideos = () => {
+const AllVideos = ({filteredVideos}) => {
 
     return (
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             {
-                VIDEOS.map((video) => {
+                filteredVideos.map((video) => {
                     return (
                         <div className="card-group">
                             <div className="card">

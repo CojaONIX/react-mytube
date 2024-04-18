@@ -12,13 +12,15 @@ const Home = () => {
         setFilteredVideos(results);
     }
 
+    console.log(filteredVideos);
+
     return (
         <div className="container">
             <h2>MyTube</h2>
             <hr/>
             <SearchBar videos={videos} onSearchVideo={handleSearchVideo} />
             <hr/>
-            <AllVideos />
+            <AllVideos filteredVideos={filteredVideos} />
         </div>
     );
 }

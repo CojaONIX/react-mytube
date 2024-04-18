@@ -8,6 +8,7 @@ const SearchBar = ({videos, onSearchVideo}) => {
         videos.forEach(video => {
             let title = video.title.toLowerCase();
             if(title.includes(searchString)) {
+                onSearchVideo([video]);
                 counter++;
             }
         });
