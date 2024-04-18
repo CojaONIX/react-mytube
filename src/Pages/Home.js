@@ -1,4 +1,5 @@
 import AllVideos from "../Components/AllVideos";
+import SearchBar from "../Components/SearchBar";
 
 const Home = () => {
 
@@ -6,7 +7,9 @@ const Home = () => {
         <div className="container">
             <h2>MyTube</h2>
             <hr/>
-            <AllVideos/>
+            <SearchBar />
+            <hr/>
+            <AllVideos />
         </div>
     );
 }
