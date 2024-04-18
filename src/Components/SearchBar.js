@@ -2,23 +2,22 @@
 
 const SearchBar = ({videos, onSearchVideo}) => {
 
-    const SearchVideoByTitle = (searchString, videos, onSearchVideo) => {
+    const SearchVideoByTitle = (searchString) => {
         searchString = searchString.toLowerCase();
-        let counter = 0;
+        let foundVideos = [];
         videos.forEach(video => {
             let title = video.title.toLowerCase();
             if(title.includes(searchString)) {
-                onSearchVideo([video]);
-                counter++;
+                foundVideos.push(video);
             }
         });
-        console.log(counter);
+        onSearchVideo(foundVideos);
     };
 
     return (
         <form className="col-md-4">
             <label className="form-label">Search:</label>
-            <input onInput={ (e) => SearchVideoByTitle(e.currentTarget.value, videos, onSearchVideo) } className="form-control" type="text" name="search" autoFocus />
+            <input onInput={ (e) => SearchVideoByTitle(e.currentTarget.value) } className="form-control" type="text" name="search" autoFocus />
         </form>
     );
 }

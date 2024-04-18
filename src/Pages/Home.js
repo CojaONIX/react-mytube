@@ -12,7 +12,6 @@ const Home = () => {
         setFilteredVideos(results);
     }
 
-    console.log(filteredVideos);
 
     return (
         <div className="container">
@@ -20,7 +19,7 @@ const Home = () => {
             <hr/>
             <SearchBar videos={videos} onSearchVideo={handleSearchVideo} />
             <hr/>
-            <AllVideos filteredVideos={filteredVideos} />
+            <AllVideos videos={filteredVideos} />
         </div>
     );
 }
