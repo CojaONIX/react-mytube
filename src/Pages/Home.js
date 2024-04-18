@@ -6,12 +6,17 @@ import VIDEOS from "../videos.json";
 const Home = () => {
 
     const [videos, setVideos] = useState(VIDEOS);
+    const [filteredVideos, setFilteredVideos] = useState(VIDEOS);
+
+    const handeleSearchVideo = (results) => {
+        setFilteredVideos(results);
+    }
 
     return (
         <div className="container">
             <h2>MyTube</h2>
             <hr/>
-            <SearchBar />
+            <SearchBar videos={videos} />
             <hr/>
             <AllVideos />
         </div>

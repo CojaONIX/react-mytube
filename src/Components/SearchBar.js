@@ -1,11 +1,11 @@
-import VIDEOS from '../videos.json';
 
-const SearchBar = () => {
+
+const SearchBar = ({videos}) => {
 
     const SearchVideoByTitle = (searchString) => {
         searchString = searchString.toLowerCase();
         let counter = 0;
-        VIDEOS.forEach(video => {
+        videos.forEach(video => {
             let title = video.title.toLowerCase();
             if(title.includes(searchString)) {
                 counter++;
